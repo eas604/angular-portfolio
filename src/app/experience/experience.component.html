@@ -1,0 +1,20 @@
+<div class="row">
+  <h2>{{vm.title}}</h2>
+  <div *ngFor="let job of vm.jobs" class="col col-lg-4 col-md-6">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        {{job.title}}
+      </div>
+      <div class="panel-body">
+        <p class="h5">
+          {{job.company}}
+          <span class="small pull-right">
+            <span *ngIf="!job.toDate; else rangeTemplate">{{vm.since}} {{job.fromDate | date:'yyyy'}}</span>
+            <template #rangeTemplate>{{job.fromDate | date:'yyyy'}}–{{job.toDate | date:'yyyy'}}</template>
+          </span>
+        </p>
+        <p>{{job.description}}</p>
+      </div>
+    </div>
+  </div>
+</div>

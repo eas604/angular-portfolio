@@ -1,0 +1,18 @@
+{
+    "English": {
+        "title": "About",
+        "messages": [
+            "I'm a software engineer from Mobile, Alabama. I have done enterprise back-end, GIS, HIT, and web development using a variety of technologies.",
+            "My recent work has been in ExtJS 6, Angular 2, and C#, using the MVVM and MVC patterns.",
+            "I also speak a bit of Spanish, and run absurdly long distances at near glacial speeds."            
+        ]
+    },
+    "Español": {
+        "title": "Sobre",
+        "messages": [
+            "Soy ingeniero de software desde Mobile, Alabama, EE.UU. He desarrollado sistemas en tecnología de informacíon geográfica, salud y internet, usando una variedad de tecnología.",
+            "Últimamente he trabajado con ExtJS 6, Angular 2  y C#, en los modelos MVVM y MVC.",
+            "Hablo algo de español y corro distancias largas muy lentamente."            
+        ]
+    }
+}

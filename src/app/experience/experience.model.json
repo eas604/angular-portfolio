@@ -1,0 +1,65 @@
+{
+    "English": {
+        "title": "Professional Experience",
+        "jobs": [
+            {
+                "title": "Software Engineer V",
+                "fromDate": "2016-04-18",
+                "company": "Hexagon Safety & Infrastructure",
+                "description": "Lead Implementer for routing and restriction management components of the Intergraph SafeHaul oversize/overweight (OSOW) solution. This software finds the safest and best legal route for oversize and/or overweight vehicles based on vehicle dimensions and axle groupings, taking into account bridge clearances, weight limits, and other restrictions. The software uses C# web services and Oracle SDO geometries on TomTom, HERE/Navteq, and custom road networks."
+            },
+            {
+                "title": "Software Developer II",
+                "fromDate": "2013-02-19",
+                "toDate": "2016-04-15",
+                "company": "Bowhead Professional Solutions",
+                "description": "GIS-related software design and development of mobile-first responsive web applications, desktop applications, geoprocessing services, and backend services. This software is developed using Python, AngularJS, C#, ASP.NET Razor MVC, jQuery, and Bootstrap."
+            },
+            {
+                "title": "Senior Programmer Analyst",
+                "fromDate": "2012-05-02",
+                "toDate": "2013-02-15",
+                "company": "The SSI Group",
+                "description": "I wrote and maintained custom line of business applications for HIT clients' patient accounting systems, which imported ANSI standard 277CA and 835 transactions. I pro-actively updated older applications to newer, more efficient specifications. I used ad hoc TSQL queries and various tools at my disposal to resolve balancing issues on Electronic Remittance Advices (ERAs). I took the lead on special projects."
+            },
+            {
+                "title": "Programmer Analyst",
+                "fromDate": "2008-06-02",
+                "toDate": "2012-05-01",
+                "company": "The SSI Group",
+                "description": "I wrote and maintained custom line of business applications for HIT clients' patient accounting systems. I pro-actively updated older applications to newer, more efficient specifications."
+            }                               
+        ]
+    },
+    "Español": {
+        "title": "Experiencia Profesional",
+        "jobs": [
+            {
+                "title": "Software Engineer V",
+                "fromDate": "2016-04-18",
+                "company": "Hexagon Safety & Infrastructure",
+                "description": "Lead Implementer for routing and restriction management components of the Intergraph SafeHaul oversize/overweight (OSOW) solution. This software finds the safest and best legal route for oversize and/or overweight vehicles based on vehicle dimensions and axle groupings, taking into account bridge clearances, weight limits, and other restrictions. The software uses C# web services and Oracle SDO geometries on TomTom, HERE/Navteq, and custom road networks."
+            },            
+            {
+                "title": "Software Developer II",
+                "fromDate": "2013-02-19",
+                "company": "Bowhead Professional Solutions",
+                "description": "GIS-related software design and development of mobile-first responsive web applications, desktop applications, geoprocessing services, and backend services. This software is developed using Python, AngularJS, C#, ASP.NET Razor MVC, jQuery, and Bootstrap."
+            },
+            {
+                "title": "Senior Programmer Analyst",
+                "fromDate": "2012-05-02",
+                "toDate": "2013-02-15",
+                "company": "The SSI Group",
+                "description": "I wrote and maintained custom line of business applications for HIT clients' patient accounting systems, which imported ANSI standard 277CA and 835 transactions. I pro-actively updated older applications to newer, more efficient specifications. I used ad hoc TSQL queries and various tools at my disposal to resolve balancing issues on Electronic Remittance Advices (ERAs). I took the lead on special projects."
+            },
+            {
+                "title": "Programmer Analyst",
+                "fromDate": "2008-06-02",
+                "toDate": "2012-05-01",
+                "company": "The SSI Group",
+                "description": "I wrote and maintained custom line of business applications for HIT clients' patient accounting systems. I pro-actively updated older applications to newer, more efficient specifications."
+            }                               
+        ]
+    }  
+}

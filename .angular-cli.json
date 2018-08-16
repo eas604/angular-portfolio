@@ -9,7 +9,10 @@
       "outDir": "dist",
       "assets": [
         "assets",
-        "favicon.ico"
+        "favicon.ico",
+        "app/about/about.model.json",
+        "app/hero/hero.model.json",
+        "app/experience/experience.model.json"
       ],
       "index": "index.html",
       "main": "main.ts",

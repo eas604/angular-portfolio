@@ -1,0 +1,18 @@
+{
+    "English": {
+        "title": "Edwin Sheldon",
+        "bullets": [
+            "Software Engineer",
+            "Runner",
+            "Adventurer"
+        ]
+    },
+    "Español": {
+        "title": "Edwin Sheldon",
+        "bullets": [
+            "Ingeniero de Software",
+            "Corredor",
+            "Aventurero"
+        ]
+    }    
+}
