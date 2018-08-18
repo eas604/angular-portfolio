@@ -1,6 +1,8 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { ExperienceComponent } from './experience.component';
+import { HttpModule } from '@angular/http';
+import { LangService } from '../langservice/lang.service';
 
 describe('ExperienceComponent', () => {
   let component: ExperienceComponent;
@@ -8,7 +10,9 @@ describe('ExperienceComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ ExperienceComponent ]
+      declarations: [ ExperienceComponent ],
+      imports: [ HttpModule ],
+      providers: [ LangService.LangService ]
     })
     .compileComponents();
   }));

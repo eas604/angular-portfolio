@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Title } from '@angular/platform-browser';
 // import { LangService } from './langservice/lang.service';
 
 @Component({
@@ -8,7 +9,16 @@ import { Component } from '@angular/core';
   // providers: []
 })
 export class AppComponent {
-  title = 'app';
+  title = 'Edwin Sheldon\'s Portfolio';
+
+  constructor(private titleService: Title) {
+    this.setTitle(this.title);
+  }
+
+  public setTitle(newTitle: string) {
+    this.title = newTitle;
+    this.titleService.setTitle(newTitle);
+  }
   /*
   private _langSvc: LangService.LangService;
 

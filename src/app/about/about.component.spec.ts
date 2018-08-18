@@ -1,5 +1,5 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
-import { Http, ConnectionBackend, RequestOptions } from '@angular/http';
+import { Http, HttpModule, ConnectionBackend, RequestOptions } from '@angular/http';
 
 import { AboutComponent } from './about.component';
 import { LangService } from '../langservice/lang.service';
@@ -31,12 +31,8 @@ describe('AboutComponent', () => {
   beforeEach(async(() => {
     TestBed.configureTestingModule({
       declarations: [ AboutComponent ],
-      providers: [
-        LangService.LangService,
-        Http,
-        ConnectionBackend,
-        RequestOptions
-      ]
+      imports: [HttpModule],
+      providers: [LangService.LangService]
     })
     .compileComponents();
   }));
