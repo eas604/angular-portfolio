@@ -35,9 +35,10 @@ export class FromJSON implements OnInit {
      * Instantiate the VM from a JSON string and language
      * @param json a json string representation of the VM
      * @param language the language to load
+     * @memberof FromJSON
      */
     fromJSON(json: object, language: string): void {
-        this.vm.fromJSON(json[language]);
+        this.vm.serializeFromJSON(json[language]);
     }
 
     /**

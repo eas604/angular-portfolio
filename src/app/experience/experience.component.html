@@ -10,7 +10,7 @@
           {{job.company}}
           <span class="small pull-right">
             <span *ngIf="!job.toDate; else rangeTemplate">{{vm.since}} {{job.fromDate | date:'yyyy'}}</span>
-            <template #rangeTemplate>{{job.fromDate | date:'yyyy'}}–{{job.toDate | date:'yyyy'}}</template>
+            <ng-template #rangeTemplate>{{job.fromDate | date:'yyyy'}}–{{job.toDate | date:'yyyy'}}</ng-template>
           </span>
         </p>
         <p>{{job.description}}</p>

@@ -24,6 +24,7 @@ describe('FromJSON', () => {
                 "title": "La Música del Silencio"
             }
         }`;
+    const mockObj = JSON.parse(mockResponse);
     const path = 'foo.json';
     let langSvc: LangService.LangService;
     let mockHttp: FakeBackend;
@@ -50,7 +51,7 @@ describe('FromJSON', () => {
         const mymock: FromJSON = new FromJSON(
                 http, langSvc, path, new MockVM()
             );
-        mymock.fromJSON(mockResponse, 'English');
+        mymock.fromJSON(mockObj, 'English');
         const vm: MockVM = <MockVM>mymock.vm;
 
         // and test that the vm was instantiated from our mock JSON
@@ -63,7 +64,7 @@ describe('FromJSON', () => {
         const mymock: FromJSON = new FromJSON(
                 http, langSvc, path, new MockVM()
             );
-        mymock.fromJSON(mockResponse, 'Español');
+        mymock.fromJSON(mockObj, 'Español');
         const vm: MockVM = <MockVM>mymock.vm;
 
         expect(vm).toBeDefined();

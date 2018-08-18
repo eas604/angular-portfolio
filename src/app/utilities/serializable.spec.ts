@@ -21,7 +21,7 @@ describe('Serializable', () => {
 
   beforeAll( () => {
     mymock = new Mock();
-    mymock.fromJSON(jsonobj);
+    mymock.serializeFromJSON(jsonobj);
   });
 
   it('deserializes a string', () => {
