@@ -16,8 +16,17 @@ class AboutVM extends Serializable {
 })
 export class AboutComponent extends FromJSON {
 
-  constructor(http: Http, lang: LangService.LangService ) {
+  constructor(http: Http, lang: LangService.LangService) {
     super(http, lang, 'app/about/about.model.json', new AboutVM());
+  }
+
+  /**
+   * Returns the view model for the About component
+   * @returns AboutVM the view model for the About component
+   * @memberof AboutComponent
+   */
+  getVM(): AboutVM {
+    return <AboutVM>this.vm;
   }
 
 }

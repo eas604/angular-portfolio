@@ -40,4 +40,18 @@ describe('AppComponent', () => {
     expect(compiled.querySelector('app-hero')).not.toBe(null);
   });
 
+  it('should have an about component', () => {
+    const fixture = TestBed.createComponent(AppComponent);
+    fixture.detectChanges();
+    const compiled = fixture.debugElement.nativeElement;
+    expect(compiled.querySelector('app-about')).not.toBe(null);
+  });
+
+  it('should have an experience component', () => {
+    const fixture = TestBed.createComponent(AppComponent);
+    fixture.detectChanges();
+    const compiled = fixture.debugElement.nativeElement;
+    expect(compiled.querySelector('app-experience')).not.toBe(null);
+  });
+
 });
